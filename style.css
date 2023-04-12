@@ -4,9 +4,79 @@ body {
     background: yellowgreen;
     color: white;
     text-align: center;
-    max-width: 960px;
+    
     margin: auto;
     display: block;
  }
 
+.links {
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    
+ }
  
+ .active {
+    
+    color: grey;
+    font-weight: bold;
+    
+ }
+
+ p{
+    text-align: left;
+   
+    size: 12px;
+ }
+
+ .items {
+    display: block;
+    
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    
+ }
+
+ .items:nth-of-type(odd) > img {
+    float: left;
+    margin: 0 24px 24px 0;
+ }
+
+ .items:nth-of-type(even) > img{
+    float: right;
+    margin: 0 0 24px 24px;
+ }
+
+ .items > img {
+    
+    height: 250px;
+ }
+ 
+ #form {
+    
+    
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    
+ }
+
+   #form > input {
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid white;
+      border-radius: 5px;
+      font-size: 12 px;
+   }
+ 
+   
